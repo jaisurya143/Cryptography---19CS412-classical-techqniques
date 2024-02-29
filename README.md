@@ -25,7 +25,7 @@ Testing algorithm with different key values.
 ## PROGRAM:
 
 ## Encryption :
-
+```python
 def caesar_cipher(text, shift):
     encrypted_text = ""
     for char in text:
@@ -52,7 +52,7 @@ shift = 3
 encrypted_text = caesar_cipher(text, shift)
 print("Original Text:", text)
 print("Encrypted Text:", encrypted_text)
-
+```
 ## Decryption:
 
 def caesar_decrypt(encrypted_text, shift):
