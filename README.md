@@ -52,7 +52,7 @@ shift = 3
 encrypted_text = caesar_cipher(text, shift)
 print("Original Text:", text)
 print("Encrypted Text:", encrypted_text)
-```
+
 ## Decryption:
 
 def caesar_decrypt(encrypted_text, shift):
@@ -81,7 +81,7 @@ shift = 3
 
 decrypted_text = caesar_decrypt(encrypted_text, shift)
 print("Decrypted Text:", decrypted_text)
-
+'''
 
 ## OUTPUT:
 ![Screenshot 2024-02-29 163252](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/87fb12c6-b5fe-490e-b56c-b751d4c424bb)
@@ -113,6 +113,8 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+'''python
+
 def prepare_text(text):
     text = text.replace(" ", "").upper()
     if len(text) % 2 != 0:
@@ -194,7 +196,7 @@ print("Encrypted Text:", encrypted_text)
 
 decrypted_text = playfair_decrypt(encrypted_text, key)
 print("Decrypted Text:", decrypted_text)
-
+'''
 
 ## OUTPUT:
 ![Screenshot 2024-02-29 164059](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/6d6d0583-6353-429d-b8a3-e23623760347)
@@ -227,6 +229,8 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+'''python
+
 import numpy as np
 
 def generate_key_matrix(key):
@@ -287,7 +291,7 @@ print("Encrypted text:", encrypted_text)
 
 decrypted_text = hill_decrypt(encrypted_text, key_matrix)
 print("Decrypted text:", decrypted_text)
-
+'''
 ## OUTPUT:
 ![Screenshot 2024-02-29 164352](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/d6942745-3ef3-49ea-ad63-3f87606d3922)
 
@@ -318,6 +322,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+'''python
 
 ## ENCRYPTION
 
@@ -365,7 +370,7 @@ print("Encrypted Text:", encrypted_text)
 
 decrypted_text = vigenere_decrypt(encrypted_text, key)
 print("Decrypted Text:", decrypted_text)
-
+'''
 
 ## OUTPUT:
 ![Screenshot 2024-02-29 164729](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/d427db5d-eb56-483a-8cf0-3d0558b4fd4e)
@@ -397,6 +402,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+'''python
 
 ## ENCRYPTION
 
@@ -457,7 +463,7 @@ print("Encrypted Text:", encrypted_text)
 
 decrypted_text = rail_fence_decrypt(encrypted_text, key)
 print("Decrypted Text:", decrypted_text)
-
+'''
 
 ## OUTPUT:
 ![Screenshot 2024-02-29 165220](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/3be17f03-5a5f-47ac-bc3b-02353c870c51)
