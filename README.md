@@ -23,9 +23,9 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
-
-## Encryption :
 ```python
+## Encryption:
+
 def caesar_cipher(text, shift):
     encrypted_text = ""
     for char in text:
