@@ -92,6 +92,24 @@ The program is executed successfully
 
 ---------------------------------
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br>
 # PlayFair Cipher
 Playfair Cipher using with different key values
 
