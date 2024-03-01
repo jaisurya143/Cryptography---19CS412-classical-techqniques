@@ -199,7 +199,7 @@ print("Decrypted Text:", decrypted_text)
 ```
 
 ## OUTPUT:
-![Screenshot 2024-02-29 164059](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/6d6d0583-6353-429d-b8a3-e23623760347)
+![Screenshot 2024-03-01 132921](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/3cfe72e5-94b7-4784-ad5f-be6b9d68c916)
 
 ## RESULT:
 The program is executed successfully
