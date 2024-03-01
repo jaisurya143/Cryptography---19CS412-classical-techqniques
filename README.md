@@ -293,7 +293,7 @@ decrypted_text = hill_decrypt(encrypted_text, key_matrix)
 print("Decrypted text:", decrypted_text)
 ```
 ## OUTPUT:
-![Screenshot 2024-02-29 164352](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/d6942745-3ef3-49ea-ad63-3f87606d3922)
+![image](https://github.com/jaisurya143/Cryptography---19CS412-classical-techqniques/assets/121999338/5c5081bd-8ee0-43e6-abcf-06ac3f70a8b3)
 
 ## RESULT:
 The program is executed successfully
