@@ -281,7 +281,7 @@ def hill_decrypt(encrypted_text, key_matrix):
     return decrypted_text
 
 key = "hill"
-plaintext = "SURYA"
+plaintext = "SURYAS"
 key_matrix = generate_key_matrix(key)
 
 encrypted_text = hill_encrypt(plaintext, key_matrix)
